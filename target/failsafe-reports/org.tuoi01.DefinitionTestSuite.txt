@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.tuoi01.DefinitionTestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.118 sec - in org.tuoi01.DefinitionTestSuite

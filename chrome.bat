@@ -1,0 +1,1 @@
+mvn test verify -Dwebdriver.driver=chrome -Dwebdriver.chrome.driver=./driver/chromedriver.exe

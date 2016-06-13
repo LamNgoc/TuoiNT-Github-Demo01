@@ -1,0 +1,38 @@
+<acceptance-test-run title="Login with invalid email" name="Login with invalid email" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11762" timestamp="2016-06-12T18:25:24.473+07:00" session-id="ab273dcf70e5a9c48643f7620db33f29">
+  <user-story id="login-system" name="Login System" path="login/Login.feature"/>
+  <tags>
+    <tag name="Login" type="capability"/>
+    <tag name="Login System" type="feature"/>
+    <tag name="Login/Login system" type="feature"/>
+  </tags>
+  <test-group name="Given Go to the login page successfully" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a0b23830addf06ed9b9c01aacfc5a7f0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8478">
+      <screenshots>
+        <screenshot image="a0b23830addf06ed9b9c01aacfc5a7f0.png"/>
+      </screenshots>
+      <description>Open page login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="695">
+    <screenshots>
+      <screenshot image="f86e82c678acf5aec87cfb2027a244a4.png"/>
+      <screenshot image="84d420b89dd839408772ef3691fb6c4b.png"/>
+    </screenshots>
+    <description>When Input an email &quot;tuoi@gmail.com&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1596">
+    <screenshots>
+      <screenshot image="e11408774dd316267798e166e964da94.png"/>
+    </screenshots>
+    <description>And Click Login button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="354">
+    <screenshots>
+      <screenshot image="82f28415a8257a198373514fa807ffcf.png"/>
+    </screenshots>
+    <description>Then Show an error message &quot;Invalid email or password&quot;</description>
+  </test-step>
+</acceptance-test-run>

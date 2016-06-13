@@ -1,0 +1,47 @@
+<acceptance-test-run title="Login with invalid password" name="Login with invalid password" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4920" timestamp="2016-06-12T18:25:37.594+07:00" session-id="ab273dcf70e5a9c48643f7620db33f29">
+  <user-story id="login-system" name="Login System" path="login/Login.feature"/>
+  <tags>
+    <tag name="Login" type="capability"/>
+    <tag name="Login System" type="feature"/>
+    <tag name="Login/Login system" type="feature"/>
+  </tags>
+  <test-group name="Given Go to the login page successfully" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e11408774dd316267798e166e964da94.png"/>
+      <screenshot image="a0b23830addf06ed9b9c01aacfc5a7f0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1332">
+      <screenshots>
+        <screenshot image="e11408774dd316267798e166e964da94.png"/>
+        <screenshot image="a0b23830addf06ed9b9c01aacfc5a7f0.png"/>
+      </screenshots>
+      <description>Open page login</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="711">
+    <screenshots>
+      <screenshot image="f86e82c678acf5aec87cfb2027a244a4.png"/>
+      <screenshot image="1a904c2cffd2d7ef5ca47fe0f71c28b9.png"/>
+    </screenshots>
+    <description>And Input an email &quot;tuoint02@gmail.com&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="656">
+    <screenshots>
+      <screenshot image="ac0d777d90eabc8e2374ded6ed5134da.png"/>
+    </screenshots>
+    <description>When Input an password &quot;12345678&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1526">
+    <screenshots>
+      <screenshot image="56de7dc281d75b03a50bee47c8dedf93.png"/>
+      <screenshot image="400e9f7c875a25b79ec1622e460e752c.png"/>
+    </screenshots>
+    <description>And Click Login button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="328">
+    <screenshots>
+      <screenshot image="10782795c7c6772d4f9b14357edff7e0.png"/>
+    </screenshots>
+    <description>Then Show an error message &quot;Invalid email or password&quot;</description>
+  </test-step>
+</acceptance-test-run>

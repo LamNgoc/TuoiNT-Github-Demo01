@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login System","Login with invalid email","SUCCESS","2016-06-12T18:25:24.473+07:00","0.0","11.76"
+"Login System","Login with invalid email and password","SUCCESS","2016-06-12T18:25:42.707+07:00","0.0","4.6"
+"Login System","Login with invalid password","SUCCESS","2016-06-12T18:25:37.594+07:00","0.0","4.92"
